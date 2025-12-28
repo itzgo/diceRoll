@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    /* Estrutura */
+    "rootDir": "src",
+    "outDir": "dist",
+
+    /* Linguagem */
+    "target": "ES2022",
+    "lib": ["ES2022"],
+
+    /* Módulos (Node moderno + Angular) */
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "verbatimModuleSyntax": true,
+
+    /* Build */
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    /* Segurança */
+    "strict": true,
+    "isolatedModules": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    /* Qualidade */
+    "noUncheckedSideEffectImports": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}
