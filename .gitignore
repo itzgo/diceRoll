@@ -1,2 +1,22 @@
-#
-node_modules
+# Node
+node_modules/
+
+# Build Angular / Frontend
+dist/
+out/
+build/
+.angular/
+
+# Cache / tooling
+.cache/
+.vscode/
+.idea/
+*.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
