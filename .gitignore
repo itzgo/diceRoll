@@ -1,21 +1,20 @@
 # Node
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
 
-# Build Angular / Frontend
+# Angular / Build
 dist/
+.angular/
 out/
 build/
-.angular/
 
-# Cache / tooling
+# Cache / IDE
 .cache/
 .vscode/
 .idea/
 *.tsbuildinfo
-
-# OS
-.DS_Store
-Thumbs.db
 
 # Env
 .env
