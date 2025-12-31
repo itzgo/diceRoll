@@ -1,0 +1,20 @@
+<div class="dice-picker">
+  <button *ngFor="let s of diceTypes" (click)="addDice(s)">D{{s}}</button>
+</div>
+
+<div class="dice-list">
+  <div *ngFor="let d of dices; let i = index" class="dice" id="dice-{{i+1}}">
+    D{{d.sides}} <button (click)="removeDice(i)">x</button>
+  </div>
+</div>
+
+<div class="controls">
+  <button (click)="rollAll()">Roll</button>
+  <button (click)="clear()">Clear</button>
+</div>
+
+<div class="results">
+  <div *ngFor="let r of results">
+    {{r.roll}} + {{r.modifierTotal || 0}} = {{r.final}}
+  </div>
+</div>

@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: sans-serif;
+  background: #f0e6d2; // tom de taberna
+  margin: 0;
+  padding: 2rem;
+}
+
+.app-container {
+  text-align: center;
+}
