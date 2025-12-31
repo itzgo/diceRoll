@@ -1,21 +1,3 @@
-# Node
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-pnpm-debug.log*
-
-# Angular / Build
 dist/
 .angular/
-out/
-build/
-
-# Cache / IDE
-.cache/
-.vscode/
-.idea/
-*.tsbuildinfo
-
-# Env
-.env
-.env.*
